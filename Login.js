@@ -5,7 +5,7 @@ import { loginPosUser } from '../features/auth/posUserSlice';
 import { useNavigate } from 'react-router-dom';
 import logo from '../assests/WholeKiranaLogo1024X1024.png';
 
-const LOCATIONS = ['YANAM','MURAMULLA','GOLLAVELLI','VADAPARRU','UPPALAGUPTHAM'];
+const LOCATIONS = ['YANAM','MURAMULLA','GOLLAVELLI','VADAPARRU','UPPALAGUPTHAM','ALLAVARAM'];
 
 function Login() {
   const [username, setUsername] = useState('');
